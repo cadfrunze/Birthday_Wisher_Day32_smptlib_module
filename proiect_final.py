@@ -2,7 +2,7 @@ import smtplib
 from functionalitati import aniversare, random_scrisoare
 from tkinter import messagebox
 
-# Configurarea continutului si trimiterea prin smtp
+# Configurarea continutului si trimiterea datelor prin smtplib
 
 USER = 'test@test.test'
 PASSWORD = 'parola'

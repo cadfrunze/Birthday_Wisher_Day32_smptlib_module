@@ -9,5 +9,5 @@ ora = acest_moment.hour
 minute = acest_moment.minute
 
 
-with open('./work_log.txt', 'a') as file1:
-    file1.writelines(f'{zi}/{luna}/{an}|{ora}:{minute}\n')
+# with open('./work_log.txt', 'a') as file1:
+#     file1.writelines(f'{zi}/{luna}/{an}|{ora}:{minute}\n')

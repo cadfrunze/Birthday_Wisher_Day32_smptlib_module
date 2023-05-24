@@ -12,8 +12,10 @@ def aniversare():
     prezent_luna = prezent.month
     prezent_zi = prezent.day
     data_luna = data[data.luna == prezent_luna]
+    print(data_luna)
     data_nume = data_luna[data_luna.day == prezent_zi]
     numele = ''.join(data_nume.name)
+    print(numele)
     return numele
 
 
@@ -21,3 +23,5 @@ def random_scrisoare():
     """ALegerea random unei scrisori"""
     scrisoarea = random.choice(SCRISORI)
     return scrisoarea
+
+aniversare()
